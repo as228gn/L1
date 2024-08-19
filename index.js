@@ -1,5 +1,8 @@
 const send = document.getElementById('send')
+const input = document.getElementById('name')
+const greeting = document.getElementById('greeting')
 
 send.addEventListener('click', () => {
-  console.log('Knappen klickades')
+  const nameInput = input.value
+  greeting.textContent = 'Hej, ' + nameInput + '!'
 })
