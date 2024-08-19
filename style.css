@@ -1,3 +1,35 @@
+body {
+  background-color: black;
+}
+
 #send {
-  color: blue;
+  background-color: black;
+  color: rgb(240, 191, 131);
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+#wrapper {
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgb(240, 191, 131);
+  text-align: center;
+}
+
+#greeting {
+  color: rgb(240, 191, 131);
+  margin-left: 300px;
+  margin-right: 300px; 
+  font-size: 25px;
+  text-align: center;
+}
+
+#picture {
+  border-radius: 10px;
+  margin-left: 665px;
+  margin-right: 700px;
 }
