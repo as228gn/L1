@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   background-color: black;
 }
 
@@ -10,7 +13,7 @@ body {
   margin-left: 10px;
 }
 
-#wrapper {
+#container {
   border-radius: 20px;
   margin-left: 300px;
   margin-right: 300px;
@@ -30,6 +33,10 @@ body {
 
 #picture {
   border-radius: 10px;
-  margin-left: 665px;
+  margin-left: 700px;
   margin-right: 700px;
+}
+
+#wrapper {
+  flex-direction: column;
 }
