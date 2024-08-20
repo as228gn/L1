@@ -1,7 +1,6 @@
 body {
   display: flex;
-  justify-content: center;
-  align-items:center;
+  flex-direction: column;
   background-color: black;
 }
 
@@ -33,10 +32,6 @@ body {
 
 #picture {
   border-radius: 10px;
-  margin-left: 700px;
-  margin-right: 700px;
-}
-
-#wrapper {
-  flex-direction: column;
+  margin-left: 650px;
+  margin-right: 650px;
 }
